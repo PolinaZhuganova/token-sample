@@ -12,11 +12,11 @@ import java.util.List;
 import java.util.stream.*;
 
 /**
- * Класс DveloperRestController
+ * Класс DeveloperRestController
  */
 @RestController
 @RequestMapping("/api/v1/developers")
-public class DveloperRestControllerV1 {
+public class DeveloperRestControllerV1 {
 	private List<Developer> DEVELOPERS = Stream.of(
 		new Developer(1L,"Ivan", "Ivanov"),
 		new Developer(2L, "Sergey", "Sergeev"),
